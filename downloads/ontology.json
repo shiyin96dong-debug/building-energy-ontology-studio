@@ -1,0 +1,278 @@
+{
+  "name": "Building Energy Documentation Ontology",
+  "version": "1.0",
+  "categories": [
+    {
+      "id": "software",
+      "name": "Software and platforms"
+    },
+    {
+      "id": "simulation",
+      "name": "Energy modelling and controls"
+    },
+    {
+      "id": "weather",
+      "name": "Weather and climate"
+    },
+    {
+      "id": "energy_metrics",
+      "name": "Energy and physical quantities"
+    },
+    {
+      "id": "daylighting",
+      "name": "Daylighting"
+    },
+    {
+      "id": "interfaces",
+      "name": "Software interfaces"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "energyplus",
+      "name": "EnergyPlus",
+      "category_id": "software",
+      "aliases": [
+        "EnergyPlus"
+      ]
+    },
+    {
+      "id": "ladybug",
+      "name": "Ladybug Tools",
+      "category_id": "software",
+      "aliases": [
+        "Ladybug",
+        "ladybug.tools"
+      ]
+    },
+    {
+      "id": "radiance",
+      "name": "Radiance",
+      "category_id": "software",
+      "aliases": [
+        "Radiance"
+      ]
+    },
+    {
+      "id": "openstudio",
+      "name": "OpenStudio",
+      "category_id": "software",
+      "aliases": [
+        "OpenStudio"
+      ]
+    },
+    {
+      "id": "energy_simulation",
+      "name": "Building energy simulation",
+      "category_id": "simulation",
+      "aliases": [
+        "building energy simulation",
+        "building energy modeling",
+        "whole-building energy simulation",
+        "energy modeling"
+      ]
+    },
+    {
+      "id": "hvac",
+      "name": "HVAC",
+      "category_id": "simulation",
+      "aliases": [
+        "HVAC",
+        "heating ventilation and air conditioning"
+      ]
+    },
+    {
+      "id": "heating",
+      "name": "Heating",
+      "category_id": "simulation",
+      "aliases": [
+        "heating"
+      ]
+    },
+    {
+      "id": "cooling",
+      "name": "Cooling",
+      "category_id": "simulation",
+      "aliases": [
+        "cooling"
+      ]
+    },
+    {
+      "id": "ems",
+      "name": "Energy management system",
+      "category_id": "simulation",
+      "aliases": [
+        "Energy Management System",
+        "EMS"
+      ]
+    },
+    {
+      "id": "thermal_comfort",
+      "name": "Thermal comfort",
+      "category_id": "simulation",
+      "aliases": [
+        "thermal comfort"
+      ]
+    },
+    {
+      "id": "epw",
+      "name": "EPW weather file",
+      "category_id": "weather",
+      "aliases": [
+        "EPW",
+        "EnergyPlus Weather"
+      ]
+    },
+    {
+      "id": "weather_file",
+      "name": "Weather file",
+      "category_id": "weather",
+      "aliases": [
+        "weather file",
+        "weather files"
+      ]
+    },
+    {
+      "id": "climate_zone",
+      "name": "Climate zone",
+      "category_id": "weather",
+      "aliases": [
+        "climate zone",
+        "climate zones",
+        "climatezone",
+        "climate classification",
+        "climate classifications"
+      ]
+    },
+    {
+      "id": "psychrometrics",
+      "name": "Psychrometrics",
+      "category_id": "weather",
+      "aliases": [
+        "psychrometrics",
+        "psychrometric",
+        "humidity metrics"
+      ]
+    },
+    {
+      "id": "analysis_period",
+      "name": "Analysis period",
+      "category_id": "weather",
+      "aliases": [
+        "analysis period",
+        "analysisperiod"
+      ]
+    },
+    {
+      "id": "solar_radiation",
+      "name": "Solar radiation",
+      "category_id": "weather",
+      "aliases": [
+        "solar radiation"
+      ]
+    },
+    {
+      "id": "energy_flux",
+      "name": "Energy flux",
+      "category_id": "energy_metrics",
+      "aliases": [
+        "energy flux",
+        "energyflux"
+      ]
+    },
+    {
+      "id": "energy_intensity",
+      "name": "Energy intensity",
+      "category_id": "energy_metrics",
+      "aliases": [
+        "energy intensity",
+        "energyintensity"
+      ]
+    },
+    {
+      "id": "conductivity",
+      "name": "Conductivity",
+      "category_id": "energy_metrics",
+      "aliases": [
+        "conductivity",
+        "thermal conductivity"
+      ]
+    },
+    {
+      "id": "conductance",
+      "name": "Conductance",
+      "category_id": "energy_metrics",
+      "aliases": [
+        "conductance",
+        "thermal conductance"
+      ]
+    },
+    {
+      "id": "illuminance",
+      "name": "Illuminance",
+      "category_id": "daylighting",
+      "aliases": [
+        "illuminance"
+      ]
+    },
+    {
+      "id": "luminance",
+      "name": "Luminance",
+      "category_id": "daylighting",
+      "aliases": [
+        "luminance"
+      ]
+    },
+    {
+      "id": "daylighting",
+      "name": "Daylighting",
+      "category_id": "daylighting",
+      "aliases": [
+        "daylighting"
+      ]
+    },
+    {
+      "id": "python_api",
+      "name": "Python API",
+      "category_id": "interfaces",
+      "aliases": [
+        "Python API",
+        "Python bindings"
+      ]
+    },
+    {
+      "id": "c_api",
+      "name": "C API",
+      "category_id": "interfaces",
+      "aliases": [
+        "C API"
+      ]
+    }
+  ],
+  "curated_relations": [
+    {
+      "from": "energyplus",
+      "to": "epw",
+      "type": "RELATED_TO",
+      "note": "EnergyPlus weather files"
+    },
+    {
+      "from": "energyplus",
+      "to": "python_api",
+      "type": "RELATED_TO",
+      "note": "EnergyPlus Python interface"
+    },
+    {
+      "from": "energyplus",
+      "to": "c_api",
+      "type": "RELATED_TO",
+      "note": "EnergyPlus C interface"
+    },
+    {
+      "from": "ladybug",
+      "to": "epw",
+      "type": "RELATED_TO",
+      "note": "Ladybug weather analysis"
+    }
+  ]
+}

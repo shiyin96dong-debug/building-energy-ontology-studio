@@ -1,0 +1,16 @@
+# 免费公网网址发布指南（GitHub Pages）
+
+这份压缩包是专门给老师远程浏览的【公开只读版本】，不需要购买域名，也不需要 Render 和云数据库。学校课程用的数据已经内置，可以打开网页、搜索19条公开网页数据、查看25个本体概念和39条关系图，下载CSV/RDF/Access导入表，还能阅读10个Python处理阶段的说明。
+
+## 操作
+
+1. 用浏览器登录 https://github.com ，创建新仓库（New repository）。
+2. Repository name 输入：`building-energy-ontology-studio`；选择 **Public**，点击 Create repository。
+3. 解压本站压缩包，在本地打开 `Building_Energy_Public_Website` 文件夹，**选中文件夹里面的所有文件和 downloads 子文件夹**，拖到 GitHub 仓库的 `Add file → Upload files` 页面，再点击 Commit changes。注意上传的是文件夹中的内容，不是ZIP本身。
+4. 仓库顶部 `Settings → Pages`，找到 `Build and deployment`。选择 `Deploy from a branch` → `main` → `/(root)` → `Save`。
+5. 等待部署完成，在 `Settings → Pages` 查看显示的真实网址。一般长这样：`https://你的GitHub用户名.github.io/building-energy-ontology-studio/`。
+6. 用手机网络打开真实网址，确认不是只在本机可见，再发给老师。
+
+**重要区别**：这个公共版可浏览真实数据和静态关系图，但不能让陌生人在线上传新DOCX或者直接连接你自己电脑的 Neo4j。本机完整版本仍可上传、执行Python分析。网页上不会出现 ChatGPT/AI 的域名品牌。
+
+**不要**把 `.venv`、数据库密码、`.env`、本机数据库或自己导入的私人文件放进公开仓库。

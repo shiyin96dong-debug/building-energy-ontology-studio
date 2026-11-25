@@ -1,0 +1,251 @@
+@prefix be: <https://example.org/building-energy-iwda/> .
+
+<https://energyplus.readthedocs.io/en/stable/api.html> a be:Page ;
+    be:hasTopic <https://example.org/building-energy-iwda/category/interfaces>,
+        <https://example.org/building-energy-iwda/category/software> ;
+    be:mentions <https://example.org/building-energy-iwda/concept/c_api>,
+        <https://example.org/building-energy-iwda/concept/energyplus>,
+        <https://example.org/building-energy-iwda/concept/python_api> ;
+    be:title "EnergyPlus Python API — EnergyPlus 26.2 documentation" .
+
+<https://energyplus.readthedocs.io/en/stable/auxiliary-programs/auxiliary-programs.html> a be:Page ;
+    be:hasTopic <https://example.org/building-energy-iwda/category/software> ;
+    be:mentions <https://example.org/building-energy-iwda/concept/energyplus> ;
+    be:title "Auxiliary Programs Introduction — EnergyPlus 26.2 documentation" .
+
+<https://energyplus.readthedocs.io/en/stable/c.html> a be:Page ;
+    be:hasTopic <https://example.org/building-energy-iwda/category/interfaces>,
+        <https://example.org/building-energy-iwda/category/software> ;
+    be:mentions <https://example.org/building-energy-iwda/concept/c_api>,
+        <https://example.org/building-energy-iwda/concept/energyplus>,
+        <https://example.org/building-energy-iwda/concept/python_api> ;
+    be:title "EnergyPlus C API — EnergyPlus 26.2 documentation" .
+
+<https://energyplus.readthedocs.io/en/stable/ems-application-guide/ems-application-guide.html> a be:Page ;
+    be:hasTopic <https://example.org/building-energy-iwda/category/simulation>,
+        <https://example.org/building-energy-iwda/category/software> ;
+    be:mentions <https://example.org/building-energy-iwda/concept/ems>,
+        <https://example.org/building-energy-iwda/concept/energyplus> ;
+    be:title "EMS Application Guide — EnergyPlus 26.2 documentation" .
+
+<https://energyplus.readthedocs.io/en/stable/essentials/essentials.html> a be:Page ;
+    be:hasTopic <https://example.org/building-energy-iwda/category/simulation>,
+        <https://example.org/building-energy-iwda/category/software> ;
+    be:mentions <https://example.org/building-energy-iwda/concept/energy_simulation>,
+        <https://example.org/building-energy-iwda/concept/energyplus> ;
+    be:title "EnergyPlus Essentials — EnergyPlus 26.2 documentation" .
+
+<https://energyplus.readthedocs.io/en/stable/index.html> a be:Page ;
+    be:hasTopic <https://example.org/building-energy-iwda/category/simulation>,
+        <https://example.org/building-energy-iwda/category/software> ;
+    be:mentions <https://example.org/building-energy-iwda/concept/energy_simulation>,
+        <https://example.org/building-energy-iwda/concept/energyplus> ;
+    be:title "EnergyPlus Documentation — EnergyPlus 26.2 documentation" .
+
+<https://energyplus.readthedocs.io/en/stable/quick_start/quick_start.html> a be:Page ;
+    be:hasTopic <https://example.org/building-energy-iwda/category/software> ;
+    be:mentions <https://example.org/building-energy-iwda/concept/energyplus> ;
+    be:title "Quick Start Guide — EnergyPlus 26.2 documentation" .
+
+<https://energyplus.readthedocs.io/en/stable/tips_and_tricks/tips_and_tricks.html> a be:Page ;
+    be:hasTopic <https://example.org/building-energy-iwda/category/software> ;
+    be:mentions <https://example.org/building-energy-iwda/concept/energyplus> ;
+    be:title "Tips and Tricks for Using EnergyPlus — EnergyPlus 26.2 documentation" .
+
+<https://example.org/building-energy-iwda/concept/conductance> a be:Concept ;
+    be:inCategory <https://example.org/building-energy-iwda/category/energy_metrics> ;
+    be:label "Conductance" .
+
+<https://example.org/building-energy-iwda/concept/cooling> a be:Concept ;
+    be:inCategory <https://example.org/building-energy-iwda/category/simulation> ;
+    be:label "Cooling" .
+
+<https://example.org/building-energy-iwda/concept/daylighting> a be:Concept ;
+    be:inCategory <https://example.org/building-energy-iwda/category/daylighting> ;
+    be:label "Daylighting" .
+
+<https://example.org/building-energy-iwda/concept/hvac> a be:Concept ;
+    be:inCategory <https://example.org/building-energy-iwda/category/simulation> ;
+    be:label "HVAC" .
+
+<https://example.org/building-energy-iwda/concept/openstudio> a be:Concept ;
+    be:inCategory <https://example.org/building-energy-iwda/category/software> ;
+    be:label "OpenStudio" .
+
+<https://example.org/building-energy-iwda/concept/radiance> a be:Concept ;
+    be:inCategory <https://example.org/building-energy-iwda/category/software> ;
+    be:label "Radiance" .
+
+<https://example.org/building-energy-iwda/concept/solar_radiation> a be:Concept ;
+    be:inCategory <https://example.org/building-energy-iwda/category/weather> ;
+    be:label "Solar radiation" .
+
+<https://example.org/building-energy-iwda/concept/thermal_comfort> a be:Concept ;
+    be:inCategory <https://example.org/building-energy-iwda/category/simulation> ;
+    be:label "Thermal comfort" .
+
+<https://www.ladybug.tools/ladybug/docs/index.html> a be:Page ;
+    be:hasTopic <https://example.org/building-energy-iwda/category/software>,
+        <https://example.org/building-energy-iwda/category/weather> ;
+    be:mentions <https://example.org/building-energy-iwda/concept/energyplus>,
+        <https://example.org/building-energy-iwda/concept/epw>,
+        <https://example.org/building-energy-iwda/concept/ladybug>,
+        <https://example.org/building-energy-iwda/concept/weather_file> ;
+    be:title "Welcome to Ladybug’s documentation! — ladybug documentation" .
+
+<https://www.ladybug.tools/ladybug/docs/ladybug.analysisperiod.html> a be:Page ;
+    be:hasTopic <https://example.org/building-energy-iwda/category/software>,
+        <https://example.org/building-energy-iwda/category/weather> ;
+    be:mentions <https://example.org/building-energy-iwda/concept/analysis_period>,
+        <https://example.org/building-energy-iwda/concept/ladybug> ;
+    be:title "ladybug.analysisperiod module — ladybug documentation" .
+
+<https://www.ladybug.tools/ladybug/docs/ladybug.climatezone.html> a be:Page ;
+    be:hasTopic <https://example.org/building-energy-iwda/category/simulation>,
+        <https://example.org/building-energy-iwda/category/software>,
+        <https://example.org/building-energy-iwda/category/weather> ;
+    be:mentions <https://example.org/building-energy-iwda/concept/climate_zone>,
+        <https://example.org/building-energy-iwda/concept/heating>,
+        <https://example.org/building-energy-iwda/concept/ladybug> ;
+    be:title "ladybug.climatezone module — ladybug documentation" .
+
+<https://www.ladybug.tools/ladybug/docs/ladybug.datatype.conductivity.html> a be:Page ;
+    be:hasTopic <https://example.org/building-energy-iwda/category/energy_metrics>,
+        <https://example.org/building-energy-iwda/category/software> ;
+    be:mentions <https://example.org/building-energy-iwda/concept/conductivity>,
+        <https://example.org/building-energy-iwda/concept/ladybug> ;
+    be:title "ladybug.datatype.conductivity module — ladybug documentation" .
+
+<https://www.ladybug.tools/ladybug/docs/ladybug.datatype.energy.html> a be:Page ;
+    be:hasTopic <https://example.org/building-energy-iwda/category/software> ;
+    be:mentions <https://example.org/building-energy-iwda/concept/ladybug> ;
+    be:title "ladybug.datatype.energy module — ladybug documentation" .
+
+<https://www.ladybug.tools/ladybug/docs/ladybug.datatype.energyflux.html> a be:Page ;
+    be:hasTopic <https://example.org/building-energy-iwda/category/energy_metrics>,
+        <https://example.org/building-energy-iwda/category/software> ;
+    be:mentions <https://example.org/building-energy-iwda/concept/energy_flux>,
+        <https://example.org/building-energy-iwda/concept/ladybug> ;
+    be:title "ladybug.datatype.energyflux module — ladybug documentation" .
+
+<https://www.ladybug.tools/ladybug/docs/ladybug.datatype.energyintensity.html> a be:Page ;
+    be:hasTopic <https://example.org/building-energy-iwda/category/energy_metrics>,
+        <https://example.org/building-energy-iwda/category/software> ;
+    be:mentions <https://example.org/building-energy-iwda/concept/energy_intensity>,
+        <https://example.org/building-energy-iwda/concept/ladybug> ;
+    be:title "ladybug.datatype.energyintensity module — ladybug documentation" .
+
+<https://www.ladybug.tools/ladybug/docs/ladybug.datatype.illuminance.html> a be:Page ;
+    be:hasTopic <https://example.org/building-energy-iwda/category/daylighting>,
+        <https://example.org/building-energy-iwda/category/software> ;
+    be:mentions <https://example.org/building-energy-iwda/concept/illuminance>,
+        <https://example.org/building-energy-iwda/concept/ladybug> ;
+    be:title "ladybug.datatype.illuminance module — ladybug documentation" .
+
+<https://www.ladybug.tools/ladybug/docs/ladybug.datatype.luminance.html> a be:Page ;
+    be:hasTopic <https://example.org/building-energy-iwda/category/daylighting>,
+        <https://example.org/building-energy-iwda/category/software> ;
+    be:mentions <https://example.org/building-energy-iwda/concept/ladybug>,
+        <https://example.org/building-energy-iwda/concept/luminance> ;
+    be:title "ladybug.datatype.luminance module — ladybug documentation" .
+
+<https://www.ladybug.tools/ladybug/docs/ladybug.epw.html> a be:Page ;
+    be:hasTopic <https://example.org/building-energy-iwda/category/software>,
+        <https://example.org/building-energy-iwda/category/weather> ;
+    be:mentions <https://example.org/building-energy-iwda/concept/epw>,
+        <https://example.org/building-energy-iwda/concept/ladybug> ;
+    be:title "ladybug.epw module — ladybug documentation" .
+
+<https://www.ladybug.tools/ladybug/docs/ladybug.psychrometrics.html> a be:Page ;
+    be:hasTopic <https://example.org/building-energy-iwda/category/software>,
+        <https://example.org/building-energy-iwda/category/weather> ;
+    be:mentions <https://example.org/building-energy-iwda/concept/ladybug>,
+        <https://example.org/building-energy-iwda/concept/psychrometrics> ;
+    be:title "ladybug.psychrometrics module — ladybug documentation" .
+
+<https://example.org/building-energy-iwda/concept/analysis_period> a be:Concept ;
+    be:inCategory <https://example.org/building-energy-iwda/category/weather> ;
+    be:label "Analysis period" .
+
+<https://example.org/building-energy-iwda/concept/climate_zone> a be:Concept ;
+    be:inCategory <https://example.org/building-energy-iwda/category/weather> ;
+    be:label "Climate zone" .
+
+<https://example.org/building-energy-iwda/concept/conductivity> a be:Concept ;
+    be:inCategory <https://example.org/building-energy-iwda/category/energy_metrics> ;
+    be:label "Conductivity" .
+
+<https://example.org/building-energy-iwda/concept/ems> a be:Concept ;
+    be:inCategory <https://example.org/building-energy-iwda/category/simulation> ;
+    be:label "Energy management system" .
+
+<https://example.org/building-energy-iwda/concept/energy_flux> a be:Concept ;
+    be:inCategory <https://example.org/building-energy-iwda/category/energy_metrics> ;
+    be:label "Energy flux" .
+
+<https://example.org/building-energy-iwda/concept/energy_intensity> a be:Concept ;
+    be:inCategory <https://example.org/building-energy-iwda/category/energy_metrics> ;
+    be:label "Energy intensity" .
+
+<https://example.org/building-energy-iwda/concept/heating> a be:Concept ;
+    be:inCategory <https://example.org/building-energy-iwda/category/simulation> ;
+    be:label "Heating" .
+
+<https://example.org/building-energy-iwda/concept/illuminance> a be:Concept ;
+    be:inCategory <https://example.org/building-energy-iwda/category/daylighting> ;
+    be:label "Illuminance" .
+
+<https://example.org/building-energy-iwda/concept/luminance> a be:Concept ;
+    be:inCategory <https://example.org/building-energy-iwda/category/daylighting> ;
+    be:label "Luminance" .
+
+<https://example.org/building-energy-iwda/concept/psychrometrics> a be:Concept ;
+    be:inCategory <https://example.org/building-energy-iwda/category/weather> ;
+    be:label "Psychrometrics" .
+
+<https://example.org/building-energy-iwda/concept/weather_file> a be:Concept ;
+    be:inCategory <https://example.org/building-energy-iwda/category/weather> ;
+    be:label "Weather file" .
+
+<https://example.org/building-energy-iwda/concept/c_api> a be:Concept ;
+    be:inCategory <https://example.org/building-energy-iwda/category/interfaces> ;
+    be:label "C API" .
+
+<https://example.org/building-energy-iwda/concept/energy_simulation> a be:Concept ;
+    be:inCategory <https://example.org/building-energy-iwda/category/simulation> ;
+    be:label "Building energy simulation" .
+
+<https://example.org/building-energy-iwda/concept/epw> a be:Concept ;
+    be:inCategory <https://example.org/building-energy-iwda/category/weather> ;
+    be:label "EPW weather file" .
+
+<https://example.org/building-energy-iwda/concept/python_api> a be:Concept ;
+    be:inCategory <https://example.org/building-energy-iwda/category/interfaces> ;
+    be:label "Python API" .
+
+<https://example.org/building-energy-iwda/category/interfaces> a be:Category ;
+    be:label "Software interfaces" .
+
+<https://example.org/building-energy-iwda/category/daylighting> a be:Category ;
+    be:label "Daylighting" .
+
+<https://example.org/building-energy-iwda/category/energy_metrics> a be:Category ;
+    be:label "Energy and physical quantities" .
+
+<https://example.org/building-energy-iwda/concept/energyplus> a be:Concept ;
+    be:inCategory <https://example.org/building-energy-iwda/category/software> ;
+    be:label "EnergyPlus" .
+
+<https://example.org/building-energy-iwda/category/simulation> a be:Category ;
+    be:label "Energy modelling and controls" .
+
+<https://example.org/building-energy-iwda/category/weather> a be:Category ;
+    be:label "Weather and climate" .
+
+<https://example.org/building-energy-iwda/concept/ladybug> a be:Concept ;
+    be:inCategory <https://example.org/building-energy-iwda/category/software> ;
+    be:label "Ladybug Tools" .
+
+<https://example.org/building-energy-iwda/category/software> a be:Category ;
+    be:label "Software and platforms" .
+
